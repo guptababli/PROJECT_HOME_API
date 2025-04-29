@@ -6,4 +6,5 @@ function fn() {
         
     };
     return config;
+    
 }
