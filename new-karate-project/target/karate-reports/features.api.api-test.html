@@ -30,7 +30,7 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2025-04-28 02:22:16 pm</div>
+    <div>2025-04-29 12:43:40 pm</div>
   </div>        
 </div>
 
@@ -71,7 +71,7 @@
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>5619</span>
+              <span>ms:</span>&nbsp;<span>4707</span>
             </div>
           </div>
           
@@ -88,7 +88,7 @@
         <span>Given</span>&nbsp;<span>url baseUrl + &#39;\menu&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">39</div>
+    <div class="time-cell passed">25</div>
   </div>
 
    
@@ -116,7 +116,7 @@
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell failed">5580</div>
+    <div class="time-cell failed">4682</div>
   </div>
 
    
@@ -125,7 +125,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.5">14:22:03.024 request:
+  <div class="preformatted" data-parent="0.5">12:43:27.864 request:
 1 &gt; GET http://localhost:3100/apimenu
 1 &gt; Host: localhost:3100
 1 &gt; Connection: Keep-Alive
@@ -133,10 +133,10 @@
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-14:22:07.581 karate.org.apache.http.conn.HttpHostConnectException: Connect to localhost:3100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 5576 milliseconds for url: http://localhost:3100/apimenu
-14:22:07.582 classpath:features/api/api-test.feature:5
+12:43:31.965 karate.org.apache.http.conn.HttpHostConnectException: Connect to localhost:3100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 4679 milliseconds for url: http://localhost:3100/apimenu
+12:43:31.967 classpath:features/api/api-test.feature:5
 When method get
-http call failed after 5576 milliseconds for url: http://localhost:3100/apimenu
+http call failed after 4679 milliseconds for url: http://localhost:3100/apimenu
 classpath:features/api/api-test.feature:5
 </div>   
 
@@ -231,7 +231,7 @@ classpath:features/api/api-test.feature:5
         <span>Given</span>&nbsp;<span>url baseUrl + &#39;\menu\1&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -268,8 +268,8 @@ classpath:features/api/api-test.feature:5
 
   
 
-  <div class="preformatted" data-parent="0.11">14:22:07.632 Illegal character in path at index 29: http://localhost:3100/apimenu, http call failed after 0 milliseconds for url: http://localhost:3100/apimenu
-14:22:07.633 classpath:features/api/api-test.feature:11
+  <div class="preformatted" data-parent="0.11">12:43:32.030 Illegal character in path at index 29: http://localhost:3100/apimenu, http call failed after 0 milliseconds for url: http://localhost:3100/apimenu
+12:43:32.030 classpath:features/api/api-test.feature:11
 When method get
 http call failed after 0 milliseconds for url: http://localhost:3100/apimenu
 classpath:features/api/api-test.feature:11
@@ -349,7 +349,7 @@ classpath:features/api/api-test.feature:11
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>4322</span>
+              <span>ms:</span>&nbsp;<span>4284</span>
             </div>
           </div>
           
@@ -394,7 +394,7 @@ classpath:features/api/api-test.feature:11
         <span>And</span>&nbsp;<span>request { &quot;name&quot;: &quot;New Item&quot;, &quot;price&quot;: 9.99 }</span>
       </div>
     </div>
-    <div class="time-cell passed">127</div>
+    <div class="time-cell passed">97</div>
   </div>
 
    
@@ -422,7 +422,7 @@ classpath:features/api/api-test.feature:11
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell failed">4194</div>
+    <div class="time-cell failed">4186</div>
   </div>
 
    
@@ -431,7 +431,7 @@ classpath:features/api/api-test.feature:11
 
   
 
-  <div class="preformatted" data-parent="0.18">14:22:07.939 request:
+  <div class="preformatted" data-parent="0.18">12:43:32.276 request:
 1 &gt; POST http://localhost:3100/apimenu
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Content-Length: 32
@@ -441,10 +441,10 @@ classpath:features/api/api-test.feature:11
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;price&quot;:9.99,&quot;name&quot;:&quot;New Item&quot;}
 
-14:22:11.989 karate.org.apache.http.conn.HttpHostConnectException: Connect to localhost:3100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 4063 milliseconds for url: http://localhost:3100/apimenu
-14:22:11.989 classpath:features/api/api-test.feature:18
+12:43:36.335 karate.org.apache.http.conn.HttpHostConnectException: Connect to localhost:3100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 4072 milliseconds for url: http://localhost:3100/apimenu
+12:43:36.336 classpath:features/api/api-test.feature:18
 When method post
-http call failed after 4063 milliseconds for url: http://localhost:3100/apimenu
+http call failed after 4072 milliseconds for url: http://localhost:3100/apimenu
 classpath:features/api/api-test.feature:18
 </div>   
 
@@ -522,7 +522,7 @@ classpath:features/api/api-test.feature:18
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>4049</span>
+              <span>ms:</span>&nbsp;<span>4070</span>
             </div>
           </div>
           
@@ -539,7 +539,7 @@ classpath:features/api/api-test.feature:18
         <span>Given</span>&nbsp;<span>url baseUrl + &#39;\menu\999&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -567,7 +567,7 @@ classpath:features/api/api-test.feature:18
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell failed">4049</div>
+    <div class="time-cell failed">4068</div>
   </div>
 
    
@@ -576,7 +576,7 @@ classpath:features/api/api-test.feature:18
 
   
 
-  <div class="preformatted" data-parent="0.24">14:22:12.006 request:
+  <div class="preformatted" data-parent="0.24">12:43:36.380 request:
 1 &gt; GET http://localhost:3100/apimenu999
 1 &gt; Host: localhost:3100
 1 &gt; Connection: Keep-Alive
@@ -584,10 +584,10 @@ classpath:features/api/api-test.feature:18
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-14:22:16.053 karate.org.apache.http.conn.HttpHostConnectException: Connect to localhost:3100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 4048 milliseconds for url: http://localhost:3100/apimenu999
-14:22:16.053 classpath:features/api/api-test.feature:24
+12:43:40.444 karate.org.apache.http.conn.HttpHostConnectException: Connect to localhost:3100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 4067 milliseconds for url: http://localhost:3100/apimenu999
+12:43:40.445 classpath:features/api/api-test.feature:24
 When method get
-http call failed after 4048 milliseconds for url: http://localhost:3100/apimenu999
+http call failed after 4067 milliseconds for url: http://localhost:3100/apimenu999
 classpath:features/api/api-test.feature:24
 </div>   
 
